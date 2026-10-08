@@ -1,5 +1,7 @@
 # Publish SaaS Pulse
 
+**Current verified app:** [saas-pulse-himanshi.streamlit.app](https://saas-pulse-himanshi.streamlit.app/) (repository `Himanshi252005/Saas-Customer-Analytics`, branch `main`, entrypoint `app.py`).
+
 ## 1. Confirm the repository locally
 
 From the project root:
@@ -38,7 +40,7 @@ Suggested repository description: **Synthetic SaaS customer churn and revenue an
 2. Connect or authorize access to the public repository. You need admin access to the repository.
 3. Select **Create app**, choose the GitHub repository and `main` branch, and set the entrypoint file to **`app.py`**.
 4. Choose a supported Python version compatible with `requirements.txt` (prefer Python 3.12 if offered), then deploy. The dependency file lives at the repository root.
-5. Open the resulting `*.streamlit.app` URL. Check that all four tabs load, change a sidebar filter, and download the CSV. Copy the verified URL into the README and your GitHub repository's website field.
+5. Open the resulting `*.streamlit.app` URL. Check that all four tabs load, change a sidebar filter, and download the CSV. Add the verified URL to the README and your GitHub repository's website field.
 
 The app uses no secrets. It reads only committed local CSV and SQL files. Pushing updates to the connected branch causes Community Cloud to update the app.
 

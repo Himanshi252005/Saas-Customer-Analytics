@@ -4,6 +4,8 @@
 
 An end-to-end data analyst portfolio project covering deterministic data generation, customer-month ETL, SQL business metrics, Python EDA, quality tests, and an interactive Streamlit dashboard. **Every customer and dollar amount is synthetic.** The project is designed for demonstration and does not describe a real company.
 
+**[Open the live dashboard](https://saas-pulse-himanshi.streamlit.app/)** · [GitHub repository](https://github.com/Himanshi252005/Saas-Customer-Analytics)
+
 ## Business questions
 
 1. Is recurring revenue growing, and which movements explain the change?
@@ -17,7 +19,7 @@ An end-to-end data analyst portfolio project covering deterministic data generat
 
 ![Cohort retention analysis](reports/cohort_retention.png)
 
-The app has revenue, cohort, churn, and methodology views. Filters for plan, region, channel, and reporting months update the analysis; a CSV download exports the selected segments. Charts are interactive in the running app. The first image is a local dashboard screenshot; the next two are reproducible EDA figures. No cloud deployment is implied.
+The app has revenue, cohort, churn, and methodology views. Filters for plan, region, channel, and reporting months update the analysis; a CSV download exports the selected segments. Charts are interactive in the running app. The first image is a local dashboard screenshot; the next two are reproducible EDA figures.
 
 [View the local cohort dashboard screenshot](reports/dashboard_cohorts.png).
 
@@ -99,7 +101,7 @@ The ETL rejects missing required fields and duplicate customer IDs, and checks o
 
 ## Deployment
 
-Follow [DEPLOYMENT.md](DEPLOYMENT.md) to deploy `app.py` from [the GitHub repository](https://github.com/Himanshi252005/Saas-Customer-Analytics) on Streamlit Community Cloud. Add the live-app URL after verifying a deployment. No live deployment is claimed by this README.
+The verified deployment is [saas-pulse-himanshi.streamlit.app](https://saas-pulse-himanshi.streamlit.app/), sourced from the repository's `main` branch and `app.py`. See [DEPLOYMENT.md](DEPLOYMENT.md) to repeat or update the deployment.
 
 ## Suggested resume line
 
